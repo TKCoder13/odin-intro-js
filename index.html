@@ -8,9 +8,25 @@
 </head>
 <body>
     <script>
-        const name = "Front ";
-        const number = 242;
-        console.log(`${name}${number}`); // "Front 242"
+        function add7(num) {
+            return (num+7);
+        }
+        console.log(add7(2));
+
+        function multiply(num1, num2) {
+            return num1*num2;
+        }
+        console.log(multiply(3,4));
+        
+        function capitalize(input) {
+            return input.substring(0,1).toUpperCase() + input.substring(1);
+        }
+        console.log(capitalize("asdlkfjasdfl;ajsdf"));
+
+        function lastLetter(input) {
+            return input.substring(input.length - 1);
+        }
+        console.log(lastLetter("testing"));
     </script>
 </body>
 </html>
